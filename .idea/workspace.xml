@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Add debug parameter to see full model response">
+    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Fix character answer formatting.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_app/src/chat_service_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/src/chat_service_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_app/src/constants_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/src/constants_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/notebook/web_app_tests_and_starter_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ml/notebook/web_app_tests_and_starter_notebook.ipynb" afterDir="false" />
     </list>
     <list id="a4aa651b-93c9-40b7-acfe-44afc26360d2" name="Changes_" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +49,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/data_scientist/qualification/MIPT/MIPT_mag/nlp/sem4/nlp_gen_tasks/hw2/code/hw2/ml/asset/tokenizer",
+    "last_opened_file_path": "E:/data_scientist/qualification/MIPT/MIPT_mag/nlp/sem4/nlp_gen_tasks/hw2/code/hw2/ml/notebook",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw2\code\hw2\ml\asset\tokenizer" />
       <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw2\code\hw2\ml\notebook" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw2\code\hw2\ml\asset\tokenizer" />
       <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\data\raw" />
       <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\data\processed" />
       <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\asset\embedding" />
@@ -189,22 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708402511827</updated>
-    </task>
-    <task id="LOCAL-00066" summary="main: Fix constructor argument">
-      <option name="closed" value="true" />
-      <created>1708844776197</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1708844776197</updated>
-    </task>
-    <task id="LOCAL-00067" summary="main: Fix tuple mistype">
-      <option name="closed" value="true" />
-      <created>1708845177225</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1708845177225</updated>
     </task>
     <task id="LOCAL-00068" summary="main: Replace print to logging">
       <option name="closed" value="true" />
@@ -582,7 +566,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710186031981</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="main: Fix character answer formatting.">
+      <option name="closed" value="true" />
+      <created>1710188747940</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1710188747940</updated>
+    </task>
+    <task id="LOCAL-00116" summary="main: Fix character answer formatting.">
+      <option name="closed" value="true" />
+      <created>1710189481099</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1710189481099</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -597,7 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main: Fill the point 5" />
     <MESSAGE value="main: Fill the point 6" />
     <MESSAGE value="main: Fix Mistypes" />
     <MESSAGE value="main: Add samples." />
@@ -622,6 +621,7 @@
     <MESSAGE value="main: Fix readmy" />
     <MESSAGE value="main: Fix readme" />
     <MESSAGE value="main: Add debug parameter to see full model response" />
-    <option name="LAST_COMMIT_MESSAGE" value="main: Add debug parameter to see full model response" />
+    <MESSAGE value="main: Fix character answer formatting." />
+    <option name="LAST_COMMIT_MESSAGE" value="main: Fix character answer formatting." />
   </component>
 </project>
