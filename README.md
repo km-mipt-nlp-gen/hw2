@@ -47,7 +47,7 @@
   - *ml/notebook/gpt_fine_tuning_pipeline_runner_notebook.ipynb* (ноутбук скачивания ML кода данного проекта с GitHub и запуска fine-tuning gpt модели, генерации артефактов);  
   - *ml/notebook/web_app_tests_and_starter_notebook.ipynb* (ноутбук скачивания кода Web-приложения данного проекта с GitHub, запуска интеграционного тестирования, а также старта приложения);
 - **src/train** (исходные файлы с модулями, содержащими классы):
-  - *ml/src/train/gpt2_fine_tuning_pipeline_module.py* - модуль реализация класса с шагами fine-tuning GPT2 модели и реалзизации Dataset;
+  - *ml/src/train/gpt2_fine_tuning_pipeline_module.py* - модуль реализация класса с шагами fine-tuning GPT2 модели, реализации Dataset и класса для сохранения метрики обучения MetricsCallback;
   - *ml/src/train/models_zoo_module.py* - модуль с архитектурой модели;
 - **data** - см. пункт 1.2.
 ### 3.2 Файлы Web-приложения:
