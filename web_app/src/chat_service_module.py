@@ -89,7 +89,7 @@ class ChatService:
         match = re.search(self.constants.TARGET_CHAR_NAME_PATTERN, message)
 
         if match:
-            return match.group(1)
+            return self.add_up_target_char_name(match.group(1))
         else:
             matches = re.findall(r'R_[0-9]+:\s*"([^"]+)"', message)
             if not matches:
@@ -99,9 +99,12 @@ class ChatService:
 
             colon_index = last_replica_with_character_name.find(':')
             if colon_index != -1:
-                return last_replica_with_character_name[colon_index + 1:].strip()
+                return self.add_up_target_char_name(last_replica_with_character_name[colon_index + 1:].strip())
             else:
                 return last_replica_with_character_name
+
+    def add_up_target_char_name(self, answer):
+        return self.constants.LISA_FULL_NAME + ': ' + answer
 
     def clear_chat_msg_history(self):
         self.chat_msg_history = []
