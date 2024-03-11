@@ -57,8 +57,6 @@ class ChatService:
         self.chat_util.debug(f'User: {user}')
         query = self.enrich_query_with_context(query, user)
         self.chat_util.debug(f'Обогащенный контекстом запрос: {query}')
-        if self.show_full_response_for_debug:
-            self.chat_util.debug(f'gpt модели полный ответ (до выделения ответа персонажа): {query}')
 
         answer = self.get_gpt2model_answer_aux(query)
         self.chat_util.debug(f'gpt модели ответ: {answer}')
@@ -81,6 +79,10 @@ class ChatService:
         )
 
         generated_text = self.constants.GPT_TOKENIZER.decode(generated_text_ids[0], skip_special_tokens=True)
+
+        if self.show_full_response_for_debug:
+            self.chat_util.debug(f'gpt модели полный ответ (до выделения ответа персонажа): {generated_text}')
+
         return self.process_gpt2_answer(generated_text)
 
     def process_gpt2_answer(self, message):

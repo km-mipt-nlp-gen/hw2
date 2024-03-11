@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Fix readme">
+    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Add debug parameter to see full model response">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/src/chat_service_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/src/chat_service_module.py" afterDir="false" />
     </list>
     <list id="a4aa651b-93c9-40b7-acfe-44afc26360d2" name="Changes_" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,14 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708402511827</updated>
-    </task>
-    <task id="LOCAL-00064" summary="main: Try to fix notebook presentation by only pof line">
-      <option name="closed" value="true" />
-      <created>1708840154506</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1708840154506</updated>
     </task>
     <task id="LOCAL-00065" summary="main: Refert offline visualization logic">
       <option name="closed" value="true" />
@@ -580,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710184272442</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="main: Add debug parameter to see full model response">
+      <option name="closed" value="true" />
+      <created>1710185542419</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1710185542419</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main: Fill the point 4" />
     <MESSAGE value="main: Fill the point 5" />
     <MESSAGE value="main: Fill the point 6" />
     <MESSAGE value="main: Fix Mistypes" />
@@ -620,6 +620,7 @@
     <MESSAGE value="main: Fix web app tests and started notebook" />
     <MESSAGE value="main: Fix readmy" />
     <MESSAGE value="main: Fix readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="main: Fix readme" />
+    <MESSAGE value="main: Add debug parameter to see full model response" />
+    <option name="LAST_COMMIT_MESSAGE" value="main: Add debug parameter to see full model response" />
   </component>
 </project>
