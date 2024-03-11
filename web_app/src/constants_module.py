@@ -42,24 +42,6 @@ class Constants:
     TARGET_CHAR_PROCESSED_QA_PATH = PROCESSED_DATA_DIR_PATH + 'target_char_qa_pairs.joblib'
     TARGET_CHAR_PROCESSED_ANSWERS_PATH = PROCESSED_DATA_DIR_PATH + 'target_char_answers.joblib'
 
-    TARGET_CHAR_QA_PAIRS_EMBEDDINGS_PATH = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + EMBEDDING_POSTFIX + 'target_char_qa_pairs_embeddings.joblib'
-    TARGET_CHAR_ANSWERS_EMBEDDINGS_PATH = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + EMBEDDING_POSTFIX + 'target_char_answers_embeddings.joblib'
-    TARGET_CHAR_QA_PAIRS_FAISS_INDEX_PATH = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + EMBEDDING_POSTFIX + 'target_char_qa_pairs_faiss_index.joblib'
-    TARGET_CHAR_QA_PAIRS_FAISS_PSA_INDEX_PATH = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + EMBEDDING_POSTFIX + 'target_char_qa_pairs_faiss_psa_index.joblib'
-
-    TARGET_CHAR_QA_PAIRS_EMBEDDINGS_PATH_AUX = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + EMBEDDING_POSTFIX + 'target_char_qa_pairs_embeddings_aux.joblib'
-    TARGET_CHAR_ANSWERS_EMBEDDINGS_PATH_AUX = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + EMBEDDING_POSTFIX + 'target_char_answers_embeddings_aux.joblib'
-    TARGET_CHAR_QA_PAIRS_FAISS_INDEX_PATH_AUX = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + EMBEDDING_POSTFIX + 'target_char_qa_pairs_faiss_index_aux.joblib'
-    TARGET_CHAR_QA_PAIRS_FAISS_PSA_INDEX_PATH_AUX = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + EMBEDDING_POSTFIX + 'target_char_qa_pairs_faiss_psa_index_aux.joblib'
-
-    BI_ENCODER_MODEL_PATH = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + MODEL_POSTFIX + 'bi_encoder_model.pth'
-    CROSS_ENCODER_MODEL_PATH = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + MODEL_POSTFIX + 'cross_encoder_model.pth'
-
-    BI_ENCODER_MODEL_PATH_AUX = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + MODEL_POSTFIX + 'bi_encoder_model_aux.pth'
-    CROSS_ENCODER_MODEL_PATH_AUX = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + MODEL_POSTFIX + 'cross_encoder_model_aux.pth'
-
-    TOKENIZER_PATH = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + TOKENIZER_POSTFIX + 'tokenizer.joblib'
-
     # Целевой персонаж
     LISA_ID = 9
     LISA_FULL_NAME = 'Lisa Simpson'
@@ -117,18 +99,6 @@ class Constants:
     torch.backends.cudnn.benchmark = False
 
     TOKENIZER = load(TOKENIZER_PATH)
-
-    # тренировка
-    EPOCHS_OVERFIT_COUNT = 1
-    BATCH_SIZE = 16
-    MAX_LENGTH = 128
-
-    # вывод
-    BI_ENCODER_TOP_N = 8
-    GPU_FAISS_INDEX = True
-    CROSS_ENCODER_TOP_N = 8
-    CROSS_ENCODER_CHUNK_SIZE = 10
-    PCA_COMPONENTS_COUNT = 768
 
     PROC_COUNT = cpu_count()
     print(f"Число процессов для использования: {PROC_COUNT}")
