@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Fix readmy">
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml/asset/tokenizer/tokenizer.joblib" afterDir="false" />
+    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Fix readme">
+      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/asset/model/models_links.info" beforeDir="false" afterPath="$PROJECT_DIR$/ml/asset/model/models_links.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/asset/tokenizer/tokenizer_links.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_app/src/constants_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/src/constants_module.py" afterDir="false" />
     </list>
     <list id="a4aa651b-93c9-40b7-acfe-44afc26360d2" name="Changes_" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,22 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708402511827</updated>
-    </task>
-    <task id="LOCAL-00058" summary="main: Add comment.">
-      <option name="closed" value="true" />
-      <created>1708834834615</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1708834834615</updated>
-    </task>
-    <task id="LOCAL-00059" summary="main: Install visualization for hyperparam search">
-      <option name="closed" value="true" />
-      <created>1708835789870</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1708835789870</updated>
     </task>
     <task id="LOCAL-00060" summary="main: Fix visualization comment">
       <option name="closed" value="true" />
@@ -587,7 +566,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710182034188</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="main: Fix readme">
+      <option name="closed" value="true" />
+      <created>1710183387496</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1710183387496</updated>
+    </task>
+    <task id="LOCAL-00108" summary="main: Fix readme">
+      <option name="closed" value="true" />
+      <created>1710183461300</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1710183461301</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,7 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main: Remove 1 block" />
     <MESSAGE value="main: Fill the point 4" />
     <MESSAGE value="main: Fill the point 5" />
     <MESSAGE value="main: Fill the point 6" />
@@ -627,6 +621,7 @@
     <MESSAGE value="main: Remove unused endpoints and fix constant naming" />
     <MESSAGE value="main: Fix web app tests and started notebook" />
     <MESSAGE value="main: Fix readmy" />
-    <option name="LAST_COMMIT_MESSAGE" value="main: Fix readmy" />
+    <MESSAGE value="main: Fix readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="main: Fix readme" />
   </component>
 </project>
