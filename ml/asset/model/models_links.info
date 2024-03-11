@@ -1,3 +1,4 @@
-Ссылки на файлы моделей (ограничения размера файлов нв github):
-- bi_encoder_model.pth - https://drive.google.com/file/d/1-ovjEIuHerp_WZucNAIT8v4v32Q9X8qQ/view?usp=sharing
-- cross_encoder_model.pth - https://drive.google.com/file/d/1-6T5kiyTxtv0KnyDOdz7WW6z2cUH1uvy/view?usp=sharing
+Ссылки на файлы модели (ограничения размера файлов нв github):
+- model.safetensors - https://drive.google.com/file/d/10nw8XP1qNJnlGP_DFs-PyLokLd6RtlBm/view?usp=sharing;
+- config.json - https://drive.google.com/file/d/10mZlbDCQYsl3fG_KA7NxNSfgMwAzwbTC/view?usp=sharing;
+- training_args.bin - https://drive.google.com/file/d/10r3_Ofg6mq1Rks3AeRZAtI-8JkEvaBcG/view?usp=sharing
