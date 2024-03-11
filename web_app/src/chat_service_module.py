@@ -86,17 +86,22 @@ class ChatService:
         return self.process_gpt2_answer(generated_text)
 
     def process_gpt2_answer(self, message):
-        matches = re.findall(r'R_[0-9]+:\s*"([^"]+)"', message)
-        if not matches:
-            return ""
+        match = re.search(self.constants.TARGET_CHAR_NAME_PATTERN, message)
 
-        text1 = matches[-1].strip()
-
-        colon_index = text1.find(':')
-        if colon_index != -1:
-            return text1[colon_index + 1:].strip()
+        if match:
+            return match.group(1)
         else:
-            return text1
+            matches = re.findall(r'R_[0-9]+:\s*"([^"]+)"', message)
+            if not matches:
+                return ""
+
+            last_replica_with_character_name = matches[-1].strip()
+
+            colon_index = last_replica_with_character_name.find(':')
+            if colon_index != -1:
+                return last_replica_with_character_name[colon_index + 1:].strip()
+            else:
+                return last_replica_with_character_name
 
     def clear_chat_msg_history(self):
         self.chat_msg_history = []

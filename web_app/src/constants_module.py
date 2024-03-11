@@ -108,6 +108,9 @@ class Constants:
     pd.set_option('display.max_columns', None)  # Полное отображение столбцов (все)
     pd.set_option('display.max_rows', None)  # Полное отобрадение рядов (все)
 
+    # сервис
+    TARGET_CHAR_NAME_PATTERN = r'Lisa Simpson: (.*?)\"'
+
     # запуск
     GIT_HUB_PROJECT_URL = 'https://github.com/km-mipt-nlp-gen'
     IS_EMBEDDINGS_USED = True
