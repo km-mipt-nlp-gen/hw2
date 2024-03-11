@@ -32,12 +32,15 @@ class GPT2Dataset(Dataset):
 
 
 class MetricsCallback(TrainerCallback):
-    def __init__(self):
+    def __init__(self, chat_util):
         super().__init__()
+        self.chat_util = chat_util
         self.losses = []
 
     def on_log(self, args, state, control, logs=None, **kwargs):
-        if 'loss' in logs:
+        self.chat_util.debug(f'Запись потерь {logs} ..')
+        if logs is not None and 'loss' in logs:
+            self.chat_util.debug(f"Потери: {logs['loss']}")
             self.losses.append(logs['loss'])
 
 
@@ -59,6 +62,7 @@ class GPT2TrainingPipeline:
             save_steps=self.constants.GPT_SAVE_STEPS,
             overwrite_output_dir = self.constants.GPT_OVERWRITE_OUTPUT,
             fp16=self.constants.GPT_FP16,
+            logging_steps=self.constants.GPT_LOG_STEPS,
             report_to="none")
         self.metrics_callback = MetricsCallback()
         self.trainer = Trainer(

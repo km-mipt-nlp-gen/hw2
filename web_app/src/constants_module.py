@@ -165,3 +165,4 @@ class Constants:
     GPT_SAVE_STEPS = 500
     GPT_OVERWRITE_OUTPUT = True
     GPT_FP16 = True
+    GPT_LOG_STEPS = 1
