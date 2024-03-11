@@ -12,6 +12,10 @@ class GPT2Dataset(Dataset):
         self.constants = constants
         self.chat_util = chat_util
         self.tokenizer = self.constants.GPT_TOKENIZER
+
+        if self.tokenizer.pad_token is None:
+            self.tokenizer.pad_token = self.tokenizer.eos_token
+
         self.inputs = []
         self.attention_masks = []
 
