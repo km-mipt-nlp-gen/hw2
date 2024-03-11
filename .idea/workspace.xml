@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Add samples." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="km-mipt-nlp-gen &lt;160564763+km-mipt-nlp-gen@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ccEY3wlqhyToFPXD8eMrg4M510" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/data_scientist/qualification/MIPT/MIPT_mag/nlp/sem4/nlp_gen_tasks/hw2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\data\raw" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\data\processed" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\asset\embedding" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\asset\tokenizer" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\src\train" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\asset" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\web_app\src" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\web_app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="hw2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="hw2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="hw2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="hw2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="hw2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="hw2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="" />
+      <created>1708402511827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708402511827</updated>
+    </task>
+    <task id="LOCAL-00038" summary="main: Debug test_that_clear_chat_when_find_top_then_clear">
+      <option name="closed" value="true" />
+      <created>1708732623334</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1708732623334</updated>
+    </task>
+    <task id="LOCAL-00039" summary="main: Debug test_that_expected_length_when_find_top_3_times">
+      <option name="closed" value="true" />
+      <created>1708732789155</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1708732789155</updated>
+    </task>
+    <task id="LOCAL-00040" summary="main: Remove test label - test all.">
+      <option name="closed" value="true" />
+      <created>1708733056159</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1708733056159</updated>
+    </task>
+    <task id="LOCAL-00041" summary="main: Add the logic to train SiameseBiEncoder - SiameseBiEncoderDataset and SiameseBiEncoderTrainingPipeline.">
+      <option name="closed" value="true" />
+      <created>1708799969137</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1708799969137</updated>
+    </task>
+    <task id="LOCAL-00042" summary="main: Add constant for processed QA data.">
+      <option name="closed" value="true" />
+      <created>1708800877281</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1708800877281</updated>
+    </task>
+    <task id="LOCAL-00043" summary="main: Add logic for visualization, return model">
+      <option name="closed" value="true" />
+      <created>1708802795421</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1708802795421</updated>
+    </task>
+    <task id="LOCAL-00044" summary="main: Extract validation interval and epochs count">
+      <option name="closed" value="true" />
+      <created>1708803047594</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1708803047594</updated>
+    </task>
+    <task id="LOCAL-00045" summary="main: Add to return the training results">
+      <option name="closed" value="true" />
+      <created>1708803512254</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1708803512254</updated>
+    </task>
+    <task id="LOCAL-00046" summary="main: Add constants for aux (test purposes or second) model training">
+      <option name="closed" value="true" />
+      <created>1708803856400</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1708803856400</updated>
+    </task>
+    <task id="LOCAL-00047" summary="main: Fix x range">
+      <option name="closed" value="true" />
+      <created>1708804529617</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1708804529617</updated>
+    </task>
+    <task id="LOCAL-00048" summary="main: Create add optional SMA smoothing, add logic to run secondary model.">
+      <option name="closed" value="true" />
+      <created>1708808178924</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1708808178924</updated>
+    </task>
+    <task id="LOCAL-00049" summary="main: Create cross_encoder_training_pipeline_module.py with dataset and training pipeline implementation. Swap generator to list.">
+      <option name="closed" value="true" />
+      <created>1708813983391</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1708813983391</updated>
+    </task>
+    <task id="LOCAL-00050" summary="main: Fix naming in cross encoder module">
+      <option name="closed" value="true" />
+      <created>1708814347334</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1708814347334</updated>
+    </task>
+    <task id="LOCAL-00051" summary="main: Fix naming in cross encoder module for tokenizer">
+      <option name="closed" value="true" />
+      <created>1708814652085</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1708814652085</updated>
+    </task>
+    <task id="LOCAL-00052" summary="main: Fix sma processing">
+      <option name="closed" value="true" />
+      <created>1708815100070</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1708815100071</updated>
+    </task>
+    <task id="LOCAL-00053" summary="main: Fix sma processing name mistype">
+      <option name="closed" value="true" />
+      <created>1708820879046</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1708820879046</updated>
+    </task>
+    <task id="LOCAL-00054" summary="main: Create hyperparam search logic">
+      <option name="closed" value="true" />
+      <created>1708827358975</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1708827358975</updated>
+    </task>
+    <task id="LOCAL-00055" summary="main: Implement scheduler hyper search, install it to train method.">
+      <option name="closed" value="true" />
+      <created>1708831041126</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1708831041126</updated>
+    </task>
+    <task id="LOCAL-00056" summary="main: Add comment train is done.">
+      <option name="closed" value="true" />
+      <created>1708832782322</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1708832782322</updated>
+    </task>
+    <task id="LOCAL-00057" summary="main: Fix potencial issue with model weights.">
+      <option name="closed" value="true" />
+      <created>1708833373994</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1708833373994</updated>
+    </task>
+    <task id="LOCAL-00058" summary="main: Add comment.">
+      <option name="closed" value="true" />
+      <created>1708834834615</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1708834834615</updated>
+    </task>
+    <task id="LOCAL-00059" summary="main: Install visualization for hyperparam search">
+      <option name="closed" value="true" />
+      <created>1708835789870</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1708835789870</updated>
+    </task>
+    <task id="LOCAL-00060" summary="main: Fix visualization comment">
+      <option name="closed" value="true" />
+      <created>1708836481542</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1708836481542</updated>
+    </task>
+    <task id="LOCAL-00061" summary="main: Fix visualization plotly representation for notebooks in colab.">
+      <option name="closed" value="true" />
+      <created>1708838220646</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1708838220646</updated>
+    </task>
+    <task id="LOCAL-00062" summary="main: Fix show method notebook representation.">
+      <option name="closed" value="true" />
+      <created>1708839067261</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1708839067261</updated>
+    </task>
+    <task id="LOCAL-00063" summary="main: Fix show method notebook representation try svg">
+      <option name="closed" value="true" />
+      <created>1708839801568</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1708839801568</updated>
+    </task>
+    <task id="LOCAL-00064" summary="main: Try to fix notebook presentation by only pof line">
+      <option name="closed" value="true" />
+      <created>1708840154506</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1708840154506</updated>
+    </task>
+    <task id="LOCAL-00065" summary="main: Refert offline visualization logic">
+      <option name="closed" value="true" />
+      <created>1708840728694</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1708840728694</updated>
+    </task>
+    <task id="LOCAL-00066" summary="main: Fix constructor argument">
+      <option name="closed" value="true" />
+      <created>1708844776197</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1708844776197</updated>
+    </task>
+    <task id="LOCAL-00067" summary="main: Fix tuple mistype">
+      <option name="closed" value="true" />
+      <created>1708845177225</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1708845177225</updated>
+    </task>
+    <task id="LOCAL-00068" summary="main: Replace print to logging">
+      <option name="closed" value="true" />
+      <created>1708845732420</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1708845732420</updated>
+    </task>
+    <task id="LOCAL-00069" summary="main: Fix debug output.">
+      <option name="closed" value="true" />
+      <created>1708847096310</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1708847096310</updated>
+    </task>
+    <task id="LOCAL-00070" summary="main: Remove generic notebook.">
+      <option name="closed" value="true" />
+      <created>1708856181552</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1708856181552</updated>
+    </task>
+    <task id="LOCAL-00071" summary="main: Add model_links and tokenizer assets.">
+      <option name="closed" value="true" />
+      <created>1708856754786</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1708856754786</updated>
+    </task>
+    <task id="LOCAL-00072" summary="main: Add target_char_qa_pairs_embeddings.joblib embeddings">
+      <option name="closed" value="true" />
+      <created>1708856810538</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1708856810538</updated>
+    </task>
+    <task id="LOCAL-00073" summary="main: Add target_char_answers_embeddings.joblib embeddings">
+      <option name="closed" value="true" />
+      <created>1708856914834</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1708856914834</updated>
+    </task>
+    <task id="LOCAL-00074" summary="main: Add target_char_qa_pairs_faiss_index.joblib embeddings">
+      <option name="closed" value="true" />
+      <created>1708856963159</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1708856963159</updated>
+    </task>
+    <task id="LOCAL-00075" summary="main: Add target_char_qa_pairs_faiss_psa_index.joblib embeddings">
+      <option name="closed" value="true" />
+      <created>1708857028858</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1708857028858</updated>
+    </task>
+    <task id="LOCAL-00076" summary="main: Add processed and raw data, remove placeholders.">
+      <option name="closed" value="true" />
+      <created>1708857381775</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1708857381775</updated>
+    </task>
+    <task id="LOCAL-00077" summary="main: Do 1st bullet point of report">
+      <option name="closed" value="true" />
+      <created>1708862168473</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1708862168473</updated>
+    </task>
+    <task id="LOCAL-00078" summary="main: Do 2nd bullet point of report">
+      <option name="closed" value="true" />
+      <created>1708863492411</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1708863492411</updated>
+    </task>
+    <task id="LOCAL-00079" summary="main: Do 3nd bullet point of report">
+      <option name="closed" value="true" />
+      <created>1708866946360</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1708866946360</updated>
+    </task>
+    <task id="LOCAL-00080" summary="main: Remove 1 block">
+      <option name="closed" value="true" />
+      <created>1708867273225</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1708867273225</updated>
+    </task>
+    <task id="LOCAL-00081" summary="main: Fill the point 4">
+      <option name="closed" value="true" />
+      <created>1708872158253</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1708872158253</updated>
+    </task>
+    <task id="LOCAL-00082" summary="main: Fill the point 5">
+      <option name="closed" value="true" />
+      <created>1708872990762</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1708872990762</updated>
+    </task>
+    <task id="LOCAL-00083" summary="main: Fill the point 6">
+      <option name="closed" value="true" />
+      <created>1708876427146</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1708876427146</updated>
+    </task>
+    <task id="LOCAL-00084" summary="main: Fix Mistypes">
+      <option name="closed" value="true" />
+      <created>1708878560333</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1708878560333</updated>
+    </task>
+    <task id="LOCAL-00085" summary="main: Fix Mistypes">
+      <option name="closed" value="true" />
+      <created>1708878637609</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1708878637609</updated>
+    </task>
+    <task id="LOCAL-00086" summary="main: Add samples.">
+      <option name="closed" value="true" />
+      <created>1708879698070</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1708879698070</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main: Fix visualization plotly representation for notebooks in colab." />
+    <MESSAGE value="main: Fix show method notebook representation." />
+    <MESSAGE value="main: Fix show method notebook representation try svg" />
+    <MESSAGE value="main: Try to fix notebook presentation by only pof line" />
+    <MESSAGE value="main: Refert offline visualization logic" />
+    <MESSAGE value="main: Fix constructor argument" />
+    <MESSAGE value="main: Fix tuple mistype" />
+    <MESSAGE value="main: Replace print to logging" />
+    <MESSAGE value="main: Fix debug output." />
+    <MESSAGE value="main: Remove generic notebook." />
+    <MESSAGE value="main: Add model_links and tokenizer assets." />
+    <MESSAGE value="main: Add target_char_qa_pairs_embeddings.joblib embeddings" />
+    <MESSAGE value="main: Add target_char_answers_embeddings.joblib embeddings" />
+    <MESSAGE value="main: Add target_char_qa_pairs_faiss_index.joblib embeddings" />
+    <MESSAGE value="main: Add target_char_qa_pairs_faiss_psa_index.joblib embeddings" />
+    <MESSAGE value="main: Add processed and raw data, remove placeholders." />
+    <MESSAGE value="main: Do 1st bullet point of report" />
+    <MESSAGE value="main: Do 2nd bullet point of report" />
+    <MESSAGE value="main: Do 3nd bullet point of report" />
+    <MESSAGE value="main: Remove 1 block" />
+    <MESSAGE value="main: Fill the point 4" />
+    <MESSAGE value="main: Fill the point 5" />
+    <MESSAGE value="main: Fill the point 6" />
+    <MESSAGE value="main: Fix Mistypes" />
+    <MESSAGE value="main: Add samples." />
+    <option name="LAST_COMMIT_MESSAGE" value="main: Add samples." />
+  </component>
+</project>
