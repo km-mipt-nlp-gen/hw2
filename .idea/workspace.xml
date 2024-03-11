@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Fix hw path">
+    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Fix readmy">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml/asset/tokenizer/tokenizer.joblib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/asset/model/models_links.info" beforeDir="false" afterPath="$PROJECT_DIR$/ml/asset/model/models_links.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml/asset/tokenizer/tokenizer_links.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/src/constants_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/src/constants_module.py" afterDir="false" />
     </list>
+    <list id="a4aa651b-93c9-40b7-acfe-44afc26360d2" name="Changes_" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,17 +54,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/data_scientist/qualification/MIPT/MIPT_mag/nlp/sem4/nlp_gen_tasks/hw2/code/hw2",
+    "last_opened_file_path": "E:/data_scientist/qualification/MIPT/MIPT_mag/nlp/sem4/nlp_gen_tasks/hw2/code/hw2/ml/asset/tokenizer",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw2\code\hw2\ml\asset\tokenizer" />
+      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw2\code\hw2\ml\notebook" />
       <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\data\raw" />
       <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\data\processed" />
       <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\asset\embedding" />
-      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\asset\tokenizer" />
-      <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml\src\train" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\data_scientist\qualification\MIPT\MIPT_mag\nlp\sem4\nlp_gen_tasks\hw1\code\hw1\ml" />
@@ -181,146 +189,11 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="" />
+      <changelist id="a4aa651b-93c9-40b7-acfe-44afc26360d2" name="Changes_" comment="" />
       <created>1708402511827</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708402511827</updated>
-    </task>
-    <task id="LOCAL-00041" summary="main: Add the logic to train SiameseBiEncoder - SiameseBiEncoderDataset and SiameseBiEncoderTrainingPipeline.">
-      <option name="closed" value="true" />
-      <created>1708799969137</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1708799969137</updated>
-    </task>
-    <task id="LOCAL-00042" summary="main: Add constant for processed QA data.">
-      <option name="closed" value="true" />
-      <created>1708800877281</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1708800877281</updated>
-    </task>
-    <task id="LOCAL-00043" summary="main: Add logic for visualization, return model">
-      <option name="closed" value="true" />
-      <created>1708802795421</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1708802795421</updated>
-    </task>
-    <task id="LOCAL-00044" summary="main: Extract validation interval and epochs count">
-      <option name="closed" value="true" />
-      <created>1708803047594</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1708803047594</updated>
-    </task>
-    <task id="LOCAL-00045" summary="main: Add to return the training results">
-      <option name="closed" value="true" />
-      <created>1708803512254</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1708803512254</updated>
-    </task>
-    <task id="LOCAL-00046" summary="main: Add constants for aux (test purposes or second) model training">
-      <option name="closed" value="true" />
-      <created>1708803856400</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1708803856400</updated>
-    </task>
-    <task id="LOCAL-00047" summary="main: Fix x range">
-      <option name="closed" value="true" />
-      <created>1708804529617</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1708804529617</updated>
-    </task>
-    <task id="LOCAL-00048" summary="main: Create add optional SMA smoothing, add logic to run secondary model.">
-      <option name="closed" value="true" />
-      <created>1708808178924</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1708808178924</updated>
-    </task>
-    <task id="LOCAL-00049" summary="main: Create cross_encoder_training_pipeline_module.py with dataset and training pipeline implementation. Swap generator to list.">
-      <option name="closed" value="true" />
-      <created>1708813983391</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1708813983391</updated>
-    </task>
-    <task id="LOCAL-00050" summary="main: Fix naming in cross encoder module">
-      <option name="closed" value="true" />
-      <created>1708814347334</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1708814347334</updated>
-    </task>
-    <task id="LOCAL-00051" summary="main: Fix naming in cross encoder module for tokenizer">
-      <option name="closed" value="true" />
-      <created>1708814652085</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1708814652085</updated>
-    </task>
-    <task id="LOCAL-00052" summary="main: Fix sma processing">
-      <option name="closed" value="true" />
-      <created>1708815100070</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1708815100071</updated>
-    </task>
-    <task id="LOCAL-00053" summary="main: Fix sma processing name mistype">
-      <option name="closed" value="true" />
-      <created>1708820879046</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1708820879046</updated>
-    </task>
-    <task id="LOCAL-00054" summary="main: Create hyperparam search logic">
-      <option name="closed" value="true" />
-      <created>1708827358975</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1708827358975</updated>
-    </task>
-    <task id="LOCAL-00055" summary="main: Implement scheduler hyper search, install it to train method.">
-      <option name="closed" value="true" />
-      <created>1708831041126</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1708831041126</updated>
-    </task>
-    <task id="LOCAL-00056" summary="main: Add comment train is done.">
-      <option name="closed" value="true" />
-      <created>1708832782322</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1708832782322</updated>
-    </task>
-    <task id="LOCAL-00057" summary="main: Fix potencial issue with model weights.">
-      <option name="closed" value="true" />
-      <created>1708833373994</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1708833373994</updated>
     </task>
     <task id="LOCAL-00058" summary="main: Add comment.">
       <option name="closed" value="true" />
@@ -578,7 +451,143 @@
       <option name="project" value="LOCAL" />
       <updated>1710167191371</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="main: Fix module name">
+      <option name="closed" value="true" />
+      <created>1710168175714</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1710168175714</updated>
+    </task>
+    <task id="LOCAL-00091" summary="main: Fix module name">
+      <option name="closed" value="true" />
+      <created>1710168235396</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1710168235396</updated>
+    </task>
+    <task id="LOCAL-00092" summary="main: Fix tokenizer repr">
+      <option name="closed" value="true" />
+      <created>1710168565265</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1710168565265</updated>
+    </task>
+    <task id="LOCAL-00093" summary="main: Fix tokenizer pad token">
+      <option name="closed" value="true" />
+      <created>1710170399954</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1710170399954</updated>
+    </task>
+    <task id="LOCAL-00094" summary="main: Fix GPT2Dataset labels, set all context">
+      <option name="closed" value="true" />
+      <created>1710172275056</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1710172275056</updated>
+    </task>
+    <task id="LOCAL-00095" summary="main: Fix GPT2Dataset params and constants to train gpt2">
+      <option name="closed" value="true" />
+      <created>1710172906894</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1710172906894</updated>
+    </task>
+    <task id="LOCAL-00096" summary="main: Fix losses getting, debug.">
+      <option name="closed" value="true" />
+      <created>1710173513857</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1710173513857</updated>
+    </task>
+    <task id="LOCAL-00097" summary="main: Fix MetricsCallback constructor initialization">
+      <option name="closed" value="true" />
+      <created>1710173594027</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1710173594027</updated>
+    </task>
+    <task id="LOCAL-00098" summary="main: Wrap gpt2 to service and endpoint.">
+      <option name="closed" value="true" />
+      <created>1710178366996</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1710178366996</updated>
+    </task>
+    <task id="LOCAL-00099" summary="main: Add gpt2 tests">
+      <option name="closed" value="true" />
+      <created>1710178479070</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1710178479070</updated>
+    </task>
+    <task id="LOCAL-00100" summary="main: Add gpt2 training notebook">
+      <option name="closed" value="true" />
+      <created>1710178602257</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1710178602257</updated>
+    </task>
+    <task id="LOCAL-00101" summary="main: Remove all except gpt2 training notebook">
+      <option name="closed" value="true" />
+      <created>1710179628370</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1710179628370</updated>
+    </task>
+    <task id="LOCAL-00102" summary="main: Fix initializer, remvoe all except gpt2 training notebook">
+      <option name="closed" value="true" />
+      <created>1710179936351</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1710179936351</updated>
+    </task>
+    <task id="LOCAL-00103" summary="main: Remove unused vars">
+      <option name="closed" value="true" />
+      <created>1710180365524</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1710180365524</updated>
+    </task>
+    <task id="LOCAL-00104" summary="main: Remove unused endpoints and fix constant naming">
+      <option name="closed" value="true" />
+      <created>1710180611836</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1710180611836</updated>
+    </task>
+    <task id="LOCAL-00105" summary="main: Fix web app tests and started notebook">
+      <option name="closed" value="true" />
+      <created>1710181112045</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1710181112045</updated>
+    </task>
+    <task id="LOCAL-00106" summary="main: Fix readmy">
+      <option name="closed" value="true" />
+      <created>1710182034188</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1710182034188</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,22 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main: Try to fix notebook presentation by only pof line" />
-    <MESSAGE value="main: Refert offline visualization logic" />
-    <MESSAGE value="main: Fix constructor argument" />
-    <MESSAGE value="main: Fix tuple mistype" />
-    <MESSAGE value="main: Replace print to logging" />
-    <MESSAGE value="main: Fix debug output." />
-    <MESSAGE value="main: Remove generic notebook." />
-    <MESSAGE value="main: Add model_links and tokenizer assets." />
-    <MESSAGE value="main: Add target_char_qa_pairs_embeddings.joblib embeddings" />
-    <MESSAGE value="main: Add target_char_answers_embeddings.joblib embeddings" />
-    <MESSAGE value="main: Add target_char_qa_pairs_faiss_index.joblib embeddings" />
-    <MESSAGE value="main: Add target_char_qa_pairs_faiss_psa_index.joblib embeddings" />
-    <MESSAGE value="main: Add processed and raw data, remove placeholders." />
-    <MESSAGE value="main: Do 1st bullet point of report" />
-    <MESSAGE value="main: Do 2nd bullet point of report" />
-    <MESSAGE value="main: Do 3nd bullet point of report" />
     <MESSAGE value="main: Remove 1 block" />
     <MESSAGE value="main: Fill the point 4" />
     <MESSAGE value="main: Fill the point 5" />
@@ -618,6 +611,22 @@
     <MESSAGE value="main: Add hw1 template" />
     <MESSAGE value="main: Add hw2 model and training pipeline for GPT2 fine tuning" />
     <MESSAGE value="main: Fix hw path" />
-    <option name="LAST_COMMIT_MESSAGE" value="main: Fix hw path" />
+    <MESSAGE value="main: Fix module name" />
+    <MESSAGE value="main: Fix tokenizer repr" />
+    <MESSAGE value="main: Fix tokenizer pad token" />
+    <MESSAGE value="main: Fix GPT2Dataset labels, set all context" />
+    <MESSAGE value="main: Fix GPT2Dataset params and constants to train gpt2" />
+    <MESSAGE value="main: Fix losses getting, debug." />
+    <MESSAGE value="main: Fix MetricsCallback constructor initialization" />
+    <MESSAGE value="main: Wrap gpt2 to service and endpoint." />
+    <MESSAGE value="main: Add gpt2 tests" />
+    <MESSAGE value="main: Add gpt2 training notebook" />
+    <MESSAGE value="main: Remove all except gpt2 training notebook" />
+    <MESSAGE value="main: Fix initializer, remvoe all except gpt2 training notebook" />
+    <MESSAGE value="main: Remove unused vars" />
+    <MESSAGE value="main: Remove unused endpoints and fix constant naming" />
+    <MESSAGE value="main: Fix web app tests and started notebook" />
+    <MESSAGE value="main: Fix readmy" />
+    <option name="LAST_COMMIT_MESSAGE" value="main: Fix readmy" />
   </component>
 </project>
