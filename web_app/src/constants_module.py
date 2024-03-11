@@ -14,7 +14,7 @@ class Constants:
         pass
 
     # Пути
-    WORKSPACE_PATH = '/content/drive/MyDrive/docs/keepForever/mipt/nlp/hw1_4sem/'
+    WORKSPACE_PATH = '/content/drive/MyDrive/docs/keepForever/mipt/nlp/hw_4sem/'
     WORKSPACE_TMP = WORKSPACE_PATH + '/tmp/'
     GIT_HUB_PROJECT_PATH = WORKSPACE_PATH + 'code/'
     WEB_APP_POSTFIX = 'web_app/'

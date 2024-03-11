@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Add hw1 template">
-      <change afterPath="$PROJECT_DIR$/ml/src/train/gpt2_fine_tuning_pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml/src/train/models_zoo_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml/src/train/models_zoo_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_app/src/constants_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/src/constants_module.py" afterDir="false" />
-    </list>
+    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Add hw2 model and training pipeline for GPT2 fine tuning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,14 +183,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708402511827</updated>
-    </task>
-    <task id="LOCAL-00039" summary="main: Debug test_that_expected_length_when_find_top_3_times">
-      <option name="closed" value="true" />
-      <created>1708732789155</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1708732789155</updated>
     </task>
     <task id="LOCAL-00040" summary="main: Remove test label - test all.">
       <option name="closed" value="true" />
@@ -581,7 +568,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710157721492</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="main: Add hw2 model and training pipeline for GPT2 fine tuning">
+      <option name="closed" value="true" />
+      <created>1710166925923</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1710166925923</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -596,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main: Fix show method notebook representation." />
     <MESSAGE value="main: Fix show method notebook representation try svg" />
     <MESSAGE value="main: Try to fix notebook presentation by only pof line" />
     <MESSAGE value="main: Refert offline visualization logic" />
@@ -621,6 +615,7 @@
     <MESSAGE value="main: Fix Mistypes" />
     <MESSAGE value="main: Add samples." />
     <MESSAGE value="main: Add hw1 template" />
-    <option name="LAST_COMMIT_MESSAGE" value="main: Add hw1 template" />
+    <MESSAGE value="main: Add hw2 model and training pipeline for GPT2 fine tuning" />
+    <option name="LAST_COMMIT_MESSAGE" value="main: Add hw2 model and training pipeline for GPT2 fine tuning" />
   </component>
 </project>
