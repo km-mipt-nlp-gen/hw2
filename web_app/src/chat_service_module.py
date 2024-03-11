@@ -2,11 +2,12 @@ import re
 
 
 class ChatService:
-    def __init__(self, chat_msg_history, chat_repository, constants, chat_util):
+    def __init__(self, chat_msg_history, chat_repository, constants, chat_util, show_full_response_for_debug=False):
         self.repository = chat_repository
         self.repository.chat_msg_history = chat_msg_history
         self.constants = constants
         self.chat_util = chat_util
+        self.show_full_response_for_debug = show_full_response_for_debug
 
     @property
     def chat_msg_history(self):
@@ -56,6 +57,8 @@ class ChatService:
         self.chat_util.debug(f'User: {user}')
         query = self.enrich_query_with_context(query, user)
         self.chat_util.debug(f'Обогащенный контекстом запрос: {query}')
+        if self.show_full_response_for_debug:
+            self.chat_util.debug(f'gpt модели полный ответ (до выделения ответа персонажа): {query}')
 
         answer = self.get_gpt2model_answer_aux(query)
         self.chat_util.debug(f'gpt модели ответ: {answer}')

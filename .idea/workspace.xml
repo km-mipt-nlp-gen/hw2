@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Fix readme">
-      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="a4aa651b-93c9-40b7-acfe-44afc26360d2" name="Changes_" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,38 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708402511827</updated>
-    </task>
-    <task id="LOCAL-00060" summary="main: Fix visualization comment">
-      <option name="closed" value="true" />
-      <created>1708836481542</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1708836481542</updated>
-    </task>
-    <task id="LOCAL-00061" summary="main: Fix visualization plotly representation for notebooks in colab.">
-      <option name="closed" value="true" />
-      <created>1708838220646</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1708838220646</updated>
-    </task>
-    <task id="LOCAL-00062" summary="main: Fix show method notebook representation.">
-      <option name="closed" value="true" />
-      <created>1708839067261</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1708839067261</updated>
-    </task>
-    <task id="LOCAL-00063" summary="main: Fix show method notebook representation try svg">
-      <option name="closed" value="true" />
-      <created>1708839801568</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1708839801568</updated>
     </task>
     <task id="LOCAL-00064" summary="main: Try to fix notebook presentation by only pof line">
       <option name="closed" value="true" />
@@ -582,7 +548,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710183461301</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="main: Fix readme">
+      <option name="closed" value="true" />
+      <created>1710183825731</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1710183825731</updated>
+    </task>
+    <task id="LOCAL-00110" summary="main: Fix readme">
+      <option name="closed" value="true" />
+      <created>1710184019712</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1710184019712</updated>
+    </task>
+    <task id="LOCAL-00111" summary="main: Fix readme">
+      <option name="closed" value="true" />
+      <created>1710184044268</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1710184044268</updated>
+    </task>
+    <task id="LOCAL-00112" summary="main: Fix readme">
+      <option name="closed" value="true" />
+      <created>1710184272442</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1710184272442</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
