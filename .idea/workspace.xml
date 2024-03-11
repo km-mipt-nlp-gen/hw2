@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Add hw2 model and training pipeline for GPT2 fine tuning" />
+    <list default="true" id="b9dbf0c5-41cf-49db-9f63-486d6e2fa889" name="Changes" comment="main: Fix hw path">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708402511827</updated>
-    </task>
-    <task id="LOCAL-00040" summary="main: Remove test label - test all.">
-      <option name="closed" value="true" />
-      <created>1708733056159</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1708733056159</updated>
     </task>
     <task id="LOCAL-00041" summary="main: Add the logic to train SiameseBiEncoder - SiameseBiEncoderDataset and SiameseBiEncoderTrainingPipeline.">
       <option name="closed" value="true" />
@@ -576,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710166925923</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="main: Fix hw path">
+      <option name="closed" value="true" />
+      <created>1710167191370</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1710167191371</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main: Fix show method notebook representation try svg" />
     <MESSAGE value="main: Try to fix notebook presentation by only pof line" />
     <MESSAGE value="main: Refert offline visualization logic" />
     <MESSAGE value="main: Fix constructor argument" />
@@ -616,6 +617,7 @@
     <MESSAGE value="main: Add samples." />
     <MESSAGE value="main: Add hw1 template" />
     <MESSAGE value="main: Add hw2 model and training pipeline for GPT2 fine tuning" />
-    <option name="LAST_COMMIT_MESSAGE" value="main: Add hw2 model and training pipeline for GPT2 fine tuning" />
+    <MESSAGE value="main: Fix hw path" />
+    <option name="LAST_COMMIT_MESSAGE" value="main: Fix hw path" />
   </component>
 </project>
