@@ -64,7 +64,7 @@ class GPT2TrainingPipeline:
             fp16=self.constants.GPT_FP16,
             logging_steps=self.constants.GPT_LOG_STEPS,
             report_to="none")
-        self.metrics_callback = MetricsCallback()
+        self.metrics_callback = MetricsCallback(chat_util)
         self.trainer = Trainer(
             model=self.gpt2_model,
             args=self.training_args,
