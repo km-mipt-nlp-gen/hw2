@@ -20,7 +20,7 @@ class GPT2Dataset(Dataset):
 
         for item in preprocessed_data:
             concatenated_text = item["premise_updated_col"] + self.tokenizer.eos_token + item["target_char_answer_col"]
-            encoding = self.tokenizer(concatenated_text, truncation=True, max_length=self.constants.GPT_MAX_LENGTH, padding="max_length", return_tensors="pt")
+            encoding = self.tokenizer(concatenated_text, truncation=True, max_length=self.constants.GPT_MAX_LENGTH, padding=self.constants.GPT_PADDING, return_tensors="pt")
 
             self.examples.append({'input_ids': encoding['input_ids'].squeeze(0), 'attention_mask': encoding['attention_mask'].squeeze(0), 'labels': encoding['input_ids'].squeeze(0)})
 
@@ -58,6 +58,7 @@ class GPT2TrainingPipeline:
             save_strategy=self.constants.GPT_SAVE_STRATEGY,
             save_steps=self.constants.GPT_SAVE_STEPS,
             overwrite_output_dir = self.constants.GPT_OVERWRITE_OUTPUT,
+            fp16=self.constants.GPT_FP16,
             report_to="none")
         self.metrics_callback = MetricsCallback()
         self.trainer = Trainer(
@@ -67,6 +68,7 @@ class GPT2TrainingPipeline:
             callbacks=[self.metrics_callback])
 
     def train(self):
+        torch.cuda.empty_cache()
         self.trainer.train()
         losses = self.metrics_callback.losses
 
