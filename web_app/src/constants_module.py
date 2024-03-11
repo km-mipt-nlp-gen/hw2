@@ -166,3 +166,8 @@ class Constants:
     GPT_OVERWRITE_OUTPUT = True
     GPT_FP16 = True
     GPT_LOG_STEPS = 1
+
+    GPT_MAX_ANSWER_LENGTH = 1000
+    GPT_NUM_RETURN_SEQUENCES = 1
+    GPT_TOP_K = 50
+    GPT_TOP_P = 0.95

@@ -66,6 +66,19 @@ class ChatController:
                 self.chat_util.error(error_msg)
                 return jsonify(self.get_error(error_msg, e)), 500
 
+        @self.app.route("/gpt2", methods=["POST"])
+        def get_answer_gpt2():
+            try:
+                query = request.json.get("query", "")
+                user = request.json.get("user", "default_user")
+                response = self.chat_service.get_answer_gpt2_model(query, user)
+                self.chat_util.debug(f'Тело ответа gpt2: {response}')
+                return jsonify(response=response), 200
+            except Exception as e:
+                error_msg = "Ошибка получения лучшего ответа (архитектура gpt2)"
+                self.chat_util.error(error_msg)
+                return jsonify(self.get_error(error_msg, e)), 500
+
         @self.app.route("/clear", methods=["DELETE"])
         def clear_chat_msg_history():
             try:

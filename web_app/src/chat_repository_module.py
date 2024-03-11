@@ -3,7 +3,7 @@ from joblib import load
 
 class ChatRepository:
     def __init__(self, chat_msg_history, target_char_qa_pairs, target_char_answers,
-                 bi_encoder_model, cross_encoder_model, chat_service_accelerator,
+                 bi_encoder_model, cross_encoder_model, gpt2_fine_tuned_model, chat_service_accelerator,
                  chat_util, preprocessed_questions_answers_embeddings_path=None,
                  preprocessed_answers_embeddings_path=None,
                  preprocessed_questions_answers_embeddings_faiss_index_path=None,
@@ -39,6 +39,7 @@ class ChatRepository:
         self._chat_msg_history = chat_msg_history
         self._bi_encoder_model = bi_encoder_model
         self._cross_encoder_model = cross_encoder_model
+        self._gpt2_model = gpt2_fine_tuned_model
         self._target_char_preprocessed_answers = target_char_answers
         self._target_char_preprocessed_qa_pairs = target_char_qa_pairs
 
@@ -65,6 +66,14 @@ class ChatRepository:
     @bi_encoder_model.setter
     def bi_encoder_model(self, value):
         self._bi_encoder_model = value
+
+    @property
+    def gpt2_model(self):
+        return self._gpt2_model
+
+    @gpt2_model.setter
+    def gpt2_model(self, value):
+        self._gpt2_model = value
 
     @property
     def cross_encoder_model(self):

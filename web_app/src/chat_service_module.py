@@ -2,6 +2,7 @@ import numpy as np
 import torch
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
+import re
 
 
 class ChatService:
@@ -34,6 +35,14 @@ class ChatService:
     @bi_encoder_model.setter
     def bi_encoder_model(self, value):
         self.repository.bi_encoder_model = value
+
+    @property
+    def gpt2_model(self):
+        return self.repository.gpt2_model
+
+    @gpt2_model.setter
+    def gpt2_model(self, value):
+        self.repository.gpt2_model = value
 
     @property
     def cross_encoder_model(self):
@@ -114,6 +123,50 @@ class ChatService:
         # добавить лучшую реплику к chat_msg_history
         self.chat_msg_history.append(unique_top_answers[0])
         return self.chat_msg_history
+
+    def get_answer_gpt2_model(self, query, user):
+        self.chat_util.debug("get_answer_gpt2_model - старт выполнения")
+
+        self.chat_util.debug(f'Query: {query}')
+        self.chat_util.debug(f'User: {user}')
+        query = self.enrich_query_with_context(query, user)
+        self.chat_util.debug(f'Обогащенный контекстом запрос: {query}')
+
+        answer = self.get_gpt2model_answer_aux(query)
+        self.chat_util.debug(f'gpt модели ответ: {answer}')
+
+        # добавить ответ к chat_msg_history
+        self.chat_msg_history.append(answer)
+        return self.chat_msg_history
+
+    def get_gpt2model_answer_aux(self, sequence):
+        input_ids = self.constants.GPT_TOKENIZER.encode(sequence, return_tensors='pt').to(self.constants.DEVICE)
+
+        generated_text_ids = self.gpt2_model.generate(
+            input_ids,
+            do_sample=True,
+            max_length=self.constants.GPT_MAX_ANSWER_LENGTH,
+            num_return_sequences=self.constants.GPT_NUM_RETURN_SEQUENCES,
+            pad_token_id=self.gpt2_model.config.eos_token_id,
+            top_k=self.constants.GPT_TOP_K,
+            top_p=self.constants.GPT_TOP_P
+        )
+
+        generated_text = self.constants.tokenizer.decode(generated_text_ids[0], skip_special_tokens=True)
+        return self.process_gpt2_answer(generated_text)
+
+    def process_gpt2_answer(self, message):
+        matches = re.findall(r'R_[0-9]+:\s*"([^"]+)"', message)
+        if not matches:
+            return ""
+
+        text1 = matches[-1].strip()
+
+        colon_index = text1.find(':')
+        if colon_index != -1:
+            return text1[colon_index + 1:].strip()
+        else:
+            return text1
 
     def find_top_n_unique_cosine_sim_bi_plus_cross_enc_aux(self, custom_answer_embeddings):
         self.chat_util.debug("find_top_n_unique_cosine_sim - get cosine similarities")
