@@ -5,7 +5,6 @@ from joblib import load
 import numpy as np
 import pandas as pd
 import torch
-from transformers import GPT2Tokenizer
 
 
 class Constants:
@@ -97,8 +96,6 @@ class Constants:
 
     torch.backends.cudnn.deterministic = True  # для воспроизводимости
     torch.backends.cudnn.benchmark = False
-
-    TOKENIZER = load(TOKENIZER_PATH)
 
     PROC_COUNT = cpu_count()
     print(f"Число процессов для использования: {PROC_COUNT}")
