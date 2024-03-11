@@ -16,26 +16,19 @@ class GPT2Dataset(Dataset):
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
 
-        self.inputs = []
-        self.attention_masks = []
+        self.examples = []
 
         for item in preprocessed_data:
             concatenated_text = item["premise_updated_col"] + self.tokenizer.eos_token + item["target_char_answer_col"]
+            encoding = self.tokenizer(concatenated_text, truncation=True, max_length=self.constants.GPT_MAX_LENGTH, padding="max_length", return_tensors="pt")
 
-            encoding = self.tokenizer(concatenated_text, truncation=True, max_length=self.constants.GPT_MAX_LENGTH,
-                                      padding=self.constants.GPT_PADDING,
-                                      return_tensors="pt")
-            self.inputs.append(encoding["input_ids"])
-            self.attention_masks.append(encoding["attention_mask"])
-
-        self.inputs = torch.cat(self.inputs, dim=0)
-        self.attention_masks = torch.cat(self.attention_masks, dim=0)
+            self.examples.append({'input_ids': encoding['input_ids'].squeeze(0), 'attention_mask': encoding['attention_mask'].squeeze(0), 'labels': encoding['input_ids'].squeeze(0)})
 
     def __len__(self):
-        return len(self.inputs)
+        return len(self.examples)
 
     def __getitem__(self, idx):
-        return {"input_ids": self.inputs[idx], "attention_mask": self.attention_masks[idx]}
+        return self.examples[idx]
 
 
 class MetricsCallback(TrainerCallback):
