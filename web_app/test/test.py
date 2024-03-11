@@ -35,7 +35,8 @@ def clear_chat_history_before_and_after_tests(client):
     ("/top_cos_sim_bi_cr", 6),
     ("/top_l2_bi_cr", 6),
     ("/top_l2_psa_bi_cr", 6),
-    ("/top_cr", 6)
+    ("/top_cr", 6),
+    ("/gpt2", 6)
 ])
 def test_that_expected_length_when_find_top_3_times(client, endpoint, expected_length):
     response = None
@@ -50,7 +51,8 @@ def test_that_expected_length_when_find_top_3_times(client, endpoint, expected_l
     ("/top_cos_sim_bi_cr", 2),
     ("/top_l2_bi_cr", 2),
     ("/top_l2_psa_bi_cr", 2),
-    ("/top_cr", 2)
+    ("/top_cr", 2),
+    ("/gpt2", 2)
 ])
 def test_that_expected_length_when_find_top(client, endpoint, expected_length):
     response = client.post(endpoint, json={"query": "test", "user": "test_user"})
@@ -63,7 +65,8 @@ def test_that_expected_length_when_find_top(client, endpoint, expected_length):
     ("/top_cos_sim_bi_cr"),
     ("/top_l2_bi_cr"),
     ("/top_l2_psa_bi_cr"),
-    ("/top_cr")
+    ("/top_cr"),
+    ("/gpt2")
 ])
 def test_that_clear_chat_when_find_top_then_clear(client, endpoint):
     client.post(endpoint, json={"query": "test", "user": "test_user"})
