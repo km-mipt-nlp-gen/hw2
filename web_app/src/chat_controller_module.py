@@ -27,45 +27,6 @@ class ChatController:
                 self.chat_util.error(error_msg)
                 return jsonify(self.get_error(error_msg, e)), 500
 
-        @self.app.route("/top_l2_bi_cr", methods=["POST"])
-        def find_top_n_unique_l2_bi_plus_cross_enc():
-            try:
-                query = request.json.get("query", "")
-                user = request.json.get("user", "default_user")
-                response = self.chat_service.find_top_n_unique_l2_bi_plus_cross_enc(query, user)
-                self.chat_util.debug(f'Тело ответа top_l2_bi_cr: {response}')
-                return jsonify(response=response), 200
-            except Exception as e:
-                error_msg = "Ошибка получения лучшего ответа (метрика l2, архитектура bi-encoder cross-encoder)"
-                self.chat_util.error(error_msg)
-                return jsonify(self.get_error(error_msg, e)), 500
-
-        @self.app.route("/top_l2_psa_bi_cr", methods=["POST"])
-        def find_top_n_unique_l2_psa_bi_plus_cross_enc():
-            try:
-                query = request.json.get("query", "")
-                user = request.json.get("user", "default_user")
-                response = self.chat_service.find_top_n_unique_l2_psa_bi_plus_cross_enc(query, user)
-                self.chat_util.debug(f'Тело ответа top_l2_psa_bi_cr: {response}')
-                return jsonify(response=response), 200
-            except Exception as e:
-                error_msg = "Ошибка получения лучшего ответа (метрика l2 psa, архитектура bi-encoder cross-encoder)"
-                self.chat_util.error(error_msg)
-                return jsonify(self.get_error(error_msg, e)), 500
-
-        @self.app.route("/top_cr", methods=["POST"])
-        def find_top_n_unique_answers_cross_enc():
-            try:
-                query = request.json.get("query", "")
-                user = request.json.get("user", "default_user")
-                response = self.chat_service.find_top_n_unique_answers_cross_enc(query, user)
-                self.chat_util.debug(f'Тело ответа top_cr: {response}')
-                return jsonify(response=response), 200
-            except Exception as e:
-                error_msg = "Ошибка получения лучшего ответа (архитектура cross-encoder)"
-                self.chat_util.error(error_msg)
-                return jsonify(self.get_error(error_msg, e)), 500
-
         @self.app.route("/gpt2", methods=["POST"])
         def get_answer_gpt2():
             try:

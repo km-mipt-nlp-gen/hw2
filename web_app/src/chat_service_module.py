@@ -77,7 +77,7 @@ class ChatService:
             top_p=self.constants.GPT_TOP_P
         )
 
-        generated_text = self.constants.tokenizer.decode(generated_text_ids[0], skip_special_tokens=True)
+        generated_text = self.constants.GPT_TOKENIZER.decode(generated_text_ids[0], skip_special_tokens=True)
         return self.process_gpt2_answer(generated_text)
 
     def process_gpt2_answer(self, message):
