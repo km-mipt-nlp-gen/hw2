@@ -5,6 +5,7 @@ from joblib import load
 import numpy as np
 import pandas as pd
 import torch
+from transformers import GPT2Tokenizer
 
 
 class Constants:
@@ -143,3 +144,22 @@ class Constants:
     # запуск
     GIT_HUB_PROJECT_URL = 'https://github.com/km-mipt-nlp-gen'
     IS_EMBEDDINGS_USED = True
+
+    # GPT модель
+    GPT2 = 'gpt2/'
+    GPT_LOG = 'gpt2_log/'
+    GPT_MODEL_PATH_AUX = GIT_HUB_PROJECT_PATH + ML_POSTFIX + ASSET_POSTFIX + MODEL_POSTFIX + GPT2
+
+    GPT_MODEL_NAME = 'gpt2'
+    GPT_MAX_LENGTH = 512
+    GPT_PADDING = 'max_length'
+    GPT_TOKENIZER = GPT2Tokenizer.from_pretrained(GPT_MODEL_NAME)
+
+    GPT_MODEL_OUTPUT_DIR = GPT_MODEL_PATH_AUX
+    GPT_TRAIN_EPOCHS = 1
+    GPT_BATCH_SIZE = 32
+    GPT_WEIGHT_DECAY = 0.01
+    GPT_LOGGING_DIR = GPT_MODEL_PATH_AUX + GPT_LOG
+    GPT_SAVE_STRATEGY = 'steps'
+    GPT_SAVE_STEPS = 500
+    GPT_OVERWRITE_OUTPUT = True
